@@ -20,7 +20,6 @@ html {
     background-color: #ECF0F1;
 }
 
-
 nav {
   display: block;
 }
@@ -45,6 +44,71 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.title {
+  color: #4385F4;
+  font-size: 150%;
+}
+
+/*
+
+WORK EXPERIENCE SECTION
+
+*/
+
+.experience > p:first {
+	text-align: center;
+}
+
+.experience-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px 0;
+  text-align: left;
+}
+
+.experience-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1em 4em;
+	background-color: #ECF0F1;
+	height: 20vw;
+	width: 20vw;
+	min-height: 100px;
+	min-width: 100px;
+	border-radius: 30px;
+}
+
+.experience-logo img {
+	max-width: 15vw;
+	min-width: 60px;
+}
+
+.experience-content {
+	display: flex;
+	justify-content: center;
+	width: 45vw;
+	flex-direction: column;
+}
+
+.experience-title {
+	color: #2980B9;
+	cursor: pointer;
+	font-size: 150%;
+	margin-bottom: .5em;
+}
+
+.experience-location{
+	letter-spacing: -0.02em;
+	font-weight: bolder;
+	margin-bottom: .3em;
+}
+
+.experience-description {
+	line-height: 1.5;
 }
 
 body, html {
@@ -75,6 +139,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: left;
 }
 
 footer {
